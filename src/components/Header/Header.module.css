@@ -1,0 +1,29 @@
+.header {
+    grid-area: h;
+    background-color: green;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.header button {
+    margin-right: 20px;
+    border-radius: 30px;
+    background-color: grey;
+    border: none;
+    cursor: pointer;
+}
+
+.header .loginContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login {
+    margin-right: 10px;
+}

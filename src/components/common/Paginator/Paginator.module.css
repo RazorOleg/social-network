@@ -1,0 +1,8 @@
+.selected {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.notSelected {
+    cursor: pointer;
+}
